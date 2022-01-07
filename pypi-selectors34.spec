@@ -13,12 +13,12 @@ License  : Python-2.0
 Requires: pypi-selectors34-python = %{version}-%{release}
 Requires: pypi-selectors34-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(six)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 selectors34
