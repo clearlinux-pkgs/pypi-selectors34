@@ -4,7 +4,7 @@
 #
 Name     : pypi-selectors34
 Version  : 1.2
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/7a/5e/fb5491a0295ee9d018d046ecffc30cec26075cb925f35bd24d40036aa95a/selectors34-1.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7a/5e/fb5491a0295ee9d018d046ecffc30cec26075cb925f35bd24d40036aa95a/selectors34-1.2.tar.gz
 Summary  : Backport of the selectors module from Python 3.4.
@@ -13,12 +13,12 @@ License  : Python-2.0
 Requires: pypi-selectors34-python = %{version}-%{release}
 Requires: pypi-selectors34-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
+BuildRequires : pypi(py)
 BuildRequires : pypi(six)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 selectors34
@@ -60,7 +60,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1640623040
+export SOURCE_DATE_EPOCH=1649700881
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
