@@ -4,7 +4,7 @@
 #
 Name     : pypi-selectors34
 Version  : 1.2
-Release  : 7
+Release  : 8
 URL      : https://files.pythonhosted.org/packages/7a/5e/fb5491a0295ee9d018d046ecffc30cec26075cb925f35bd24d40036aa95a/selectors34-1.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/7a/5e/fb5491a0295ee9d018d046ecffc30cec26075cb925f35bd24d40036aa95a/selectors34-1.2.tar.gz
 Summary  : Backport of the selectors module from Python 3.4.
